@@ -1,0 +1,17 @@
+{
+  "name": "vade",
+  "version": "0.0.1",
+  "description": "Backend for vade",
+  "main": "index.js",
+  "repository": "github.com/adamsiwiec/vade",
+  "author": "Adam Siwiec",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2",
+    "morgan": "^1.8.1",
+    "serve-favicon": "^2.3.2"
+  }
+}
