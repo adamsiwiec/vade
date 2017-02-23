@@ -11,12 +11,6 @@ var routes = require('./routes/index');
 var app = express();
 var server = require('http').Server(app);
 
-
-
-// view engine setup
-//app.set('views', path.join(__dirname, 'views'));
-
-// uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
